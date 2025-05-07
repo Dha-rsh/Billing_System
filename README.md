@@ -14,8 +14,9 @@ Billing System
    
 Features:  
 --------
-    • Product Management - Add/update/delete products
-    • Billing & POS Screen - Add items to cart,Apply discounts,Auto-calculate total with taxes (GST)
+• Product Management - Add/update/delete products
+
+• Billing & POS Screen - Add items to cart,Apply discounts,Auto-calculate total with taxes (GST)
     • Tax Calculation - Customizable GST %
     • Customer Management - Save customer names & contact
     • Receipt Generation - Print and/or PDF invoice,Invoice number, date, shop details

@@ -1,11 +1,17 @@
 Billing System
 --------------
    Title: Bills
+   
    Target Audience: Small shop owners, local retailers, grocery stores, small boutiques
+   
    Type: B2B / B2C
+   
    Timeline: 3 months
+   
    Budget: 1 lakh
+   
    Total Members: 6
+   
 Features:  
 --------
     • Product Management - Add/update/delete products

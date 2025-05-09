@@ -109,6 +109,7 @@ Future Features:
 - shopAddress: String
 - totalAmount: float
 - pdfURL: String
+
 }
 
 6. Class Tax
@@ -131,6 +132,7 @@ Future Features:
 - totalSales: float
 - totalTransactions: int
 - generatedOn: DateTime
+
 }
 
 8. Class InventoryAlert
@@ -142,7 +144,9 @@ Future Features:
 - thresholdLimit: int
 - alertDate: DateTime
 - isResolved: boolean
+
 }
+
 9. Class User (Admin/Cashier)
 
 {
@@ -151,4 +155,5 @@ Future Features:
 - role: String  // "admin", "cashier"
 - email: String
 - password: String
+
 }

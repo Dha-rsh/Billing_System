@@ -98,9 +98,8 @@ Future Features:
 
 }
 5. Class Invoice
-java
-Copy
-Edit
+
+{
 - invoiceID: int
 - posID: int
 - invoiceNumber: String
@@ -110,18 +109,21 @@ Edit
 - shopAddress: String
 - totalAmount: float
 - pdfURL: String
+}
+
 6. Class Tax
-java
-Copy
-Edit
+
+{
 - taxID: int
 - productID: int
 - gstPercentage: float
 - calculatedAmount: float
+
+}
+
 7. Class SalesReport
-java
-Copy
-Edit
+
+{
 - reportID: int
 - reportType: String  // "Daily", "Weekly", "Monthly"
 - startDate: Date
@@ -129,22 +131,24 @@ Edit
 - totalSales: float
 - totalTransactions: int
 - generatedOn: DateTime
+}
+
 8. Class InventoryAlert
-java
-Copy
-Edit
+
+{
 - alertID: int
 - productID: int
 - currentStock: int
 - thresholdLimit: int
 - alertDate: DateTime
 - isResolved: boolean
+}
 9. Class User (Admin/Cashier)
-java
-Copy
-Edit
+
+{
 - userID: int
 - name: String
 - role: String  // "admin", "cashier"
 - email: String
 - password: String
+}

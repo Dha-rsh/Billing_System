@@ -40,3 +40,111 @@ Future Features:
 • SMS/WhatsApp invoice sending
 
 • Mobile App version for Android/iOS
+
+
+
+1. Class Product
+   
+{
+- productID: int
+- productName: String
+- category: String
+- price: float
+- gstPercentage: float
+- stockQuantity: int
+- barcode: String
+- lastUpdated: DateTime
+
+}
+
+2. Class CartItem
+
+{
+
+- itemID: int
+- productID: int
+- quantity: int
+- discountPercentage: float
+- subtotal: float  // (price * quantity) - discount
+- gstAmount: float
+- totalAmount: float  // subtotal + gstAmount
+
+}
+
+3. Class POS
+
+{
+- posID: int
+- userID: int  // cashier/admin
+- cartItems: List<CartItem>
+- totalQuantity: int
+- subtotalAmount: float
+- gstTotal: float
+- totalAmount: float
+- discountTotal: float
+- paymentMode: String  // "Cash", "Card", "UPI"
+- posDateTime: DateTime
+
+}
+
+4. Class Customer
+
+{
+- customerID: int
+- name: String
+- phoneNumber: String
+- email: String
+- address: String
+
+}
+5. Class Invoice
+java
+Copy
+Edit
+- invoiceID: int
+- posID: int
+- invoiceNumber: String
+- invoiceDate: DateTime
+- customerID: int
+- shopName: String
+- shopAddress: String
+- totalAmount: float
+- pdfURL: String
+6. Class Tax
+java
+Copy
+Edit
+- taxID: int
+- productID: int
+- gstPercentage: float
+- calculatedAmount: float
+7. Class SalesReport
+java
+Copy
+Edit
+- reportID: int
+- reportType: String  // "Daily", "Weekly", "Monthly"
+- startDate: Date
+- endDate: Date
+- totalSales: float
+- totalTransactions: int
+- generatedOn: DateTime
+8. Class InventoryAlert
+java
+Copy
+Edit
+- alertID: int
+- productID: int
+- currentStock: int
+- thresholdLimit: int
+- alertDate: DateTime
+- isResolved: boolean
+9. Class User (Admin/Cashier)
+java
+Copy
+Edit
+- userID: int
+- name: String
+- role: String  // "admin", "cashier"
+- email: String
+- password: String

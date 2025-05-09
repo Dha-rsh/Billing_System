@@ -137,7 +137,7 @@ Future Features:
 
 8. Class InventoryAlert
 
-{
+   {
 - alertID: int
 - productID: int
 - currentStock: int
@@ -145,15 +145,15 @@ Future Features:
 - alertDate: DateTime
 - isResolved: boolean
 
-}
+   }
 
 9. Class User (Admin/Cashier)
 
-{
+   {
 - userID: int
 - name: String
 - role: String  // "admin", "cashier"
 - email: String
 - password: String
 
-}
+   }

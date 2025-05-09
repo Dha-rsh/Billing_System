@@ -10,7 +10,7 @@ Billing System
    
    Budget: 1 lakh
    
-   Total Members: 6
+   Total Members: 6 
    
 Features:  
 --------

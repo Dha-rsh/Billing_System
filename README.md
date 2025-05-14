@@ -52,7 +52,6 @@ Future Features:
 - price: float
 - gstPercentage: float
 - stockQuantity: int
-- barcode: String
 - lastUpdated: DateTime
 
 }
@@ -108,7 +107,6 @@ Future Features:
 - shopName: String
 - shopAddress: String
 - totalAmount: float
-- pdfURL: String
 
 }
 

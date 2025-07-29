@@ -1,0 +1,6 @@
+----Final Bill----
+ProdId     Name            Qty        Subtotal  
+101        milk            10         100.00    
+----------------------------
+Total Amount: 100.00
+Thank You for Shopping!

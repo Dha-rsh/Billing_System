@@ -1,0 +1,7 @@
+Date and time: 29-07-2025 18:24:14
+----Final Bill----
+ProdId     Name            Qty        Subtotal  
+101        milk            10         100.00    
+----------------------------
+Total Amount: 100.00
+Thank You for Shopping!
